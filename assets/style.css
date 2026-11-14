@@ -163,6 +163,7 @@ footer .legal{margin-top:38px;padding-top:22px;border-top:1px solid rgba(255,255
 
 /* ---------- responsive ---------- */
 @media(max-width:960px){
+  .hero{padding:46px 0 44px}
   .hero .wrap{grid-template-columns:1fr;gap:36px}
   .hero h1{font-size:40px}
   .grid-3,.grid-2,.contact-grid{grid-template-columns:1fr}
