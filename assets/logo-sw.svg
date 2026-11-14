@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 92" width="190" height="92" role="img" aria-label="Seaworthy">
+  <defs>
+    <style>
+      .sw{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-weight:700;font-size:60px;letter-spacing:-1.5px;fill:#0E6DB5}
+    </style>
+  </defs>
+
+  <text class="sw" x="14" y="56">SW</text>
+
+  <!-- water band: tapers to a point on the left, ends inside the crest on the right -->
+  <path d="M6 74
+           C32 63 56 80 84 72
+           C104 66 120 68 132 65
+           C120 71 104 74 84 81
+           C56 89 32 72 6 74
+           Z" fill="#0E6DB5"/>
+
+  <!-- orange crest, wide enough to swallow the band's right end -->
+  <path d="M106 70
+           C118 57 133 49 147 46
+           C143 57 141 64 139 71
+           C129 71 117 70 106 70
+           Z" fill="#F0A03C"/>
+</svg>
