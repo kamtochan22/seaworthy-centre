@@ -171,7 +171,9 @@ footer .legal{margin-top:38px;padding-top:22px;border-top:1px solid rgba(255,255
   .stats .wrap{grid-template-columns:1fr}
   .partner{grid-template-columns:1fr}
   footer .cols{grid-template-columns:1fr}
-  nav{display:none}
+  nav{display:flex;order:5;margin-left:0;width:100%;overflow-x:auto;gap:18px;font-size:14.5px;padding:2px 0 8px;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  nav a{white-space:nowrap}
   .top .wrap{height:auto;padding:14px 24px;gap:12px;flex-wrap:wrap}
   .float{position:static;margin-top:16px;justify-content:space-around}
   section{padding:58px 0}
@@ -196,3 +198,5 @@ h1,h2,h3,.sec-head h2,.card h3,.time-card h3,.band b,
 .mark-logo{width:52px;height:auto;display:block;transform:translateY(1px)}
 .logo{gap:12px}
 @media(max-width:960px){.mark-logo{width:40px}}
+
+section[id]{scroll-margin-top:92px}
