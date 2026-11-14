@@ -179,3 +179,14 @@ footer .legal{margin-top:38px;padding-top:22px;border-top:1px solid rgba(255,255
 }
 
 .band-img{width:100%;height:clamp(240px,36vw,430px);object-fit:cover;border-radius:26px;margin-top:34px}
+
+/* Chinese headings: same stack as the SoundBloom Chinese site */
+h1,h2,h3,.sec-head h2,.card h3,.time-card h3,.band b,
+.hero h1,.stat b,.price-card .amount,.time-card .big,.contact-card p,.logo b{
+  font-family:'Baloo 2','Noto Sans TC',sans-serif;
+  font-weight:800;
+  letter-spacing:0;
+}
+.hero h1{font-size:50px;line-height:1.16}
+.sec-head h2{font-size:36px;line-height:1.25}
+.price-card .amount{font-size:60px}
