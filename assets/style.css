@@ -260,3 +260,5 @@ nav a{white-space:nowrap}
   .partner-face{width:68px;height:68px}
 }
 .partner .chips-row span{color:#fff;background:rgba(255,255,255,.16);border-color:rgba(255,255,255,.5)}
+.time-card.is-open{background:#F1FAF4;border-color:rgba(95,191,75,.55)}
+.time-card.is-open .big{color:var(--green-dark)}
