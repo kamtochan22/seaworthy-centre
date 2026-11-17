@@ -200,3 +200,16 @@ h1,h2,h3,.sec-head h2,.card h3,.time-card h3,.band b,
 @media(max-width:960px){.mark-logo{width:40px}}
 
 section[id]{scroll-margin-top:92px}
+
+/* fee add-on cards */
+.fee-list{list-style:none;display:grid;gap:9px;margin-top:16px;font-size:15.5px;color:var(--grey)}
+.fee-list li{display:flex;gap:9px;align-items:flex-start;line-height:1.55}
+.fee-list li::before{content:"·";color:var(--blue);font-weight:800;font-size:20px;line-height:1}
+.fee-list b{color:var(--navy);font-weight:700}
+.time-card.is-closed{background:var(--bg-soft)}
+.time-card.is-closed .big{color:var(--grey)}
+@media(max-width:960px){.grid-3{grid-template-columns:1fr}}
+
+/* keep the hours on one line */
+.time-card .big{font-size:30px;white-space:nowrap}
+@media(max-width:1100px){.time-card .big{font-size:26px}}
