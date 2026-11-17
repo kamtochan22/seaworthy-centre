@@ -213,3 +213,18 @@ section[id]{scroll-margin-top:92px}
 /* keep the hours on one line */
 .time-card .big{font-size:30px;white-space:nowrap}
 @media(max-width:1100px){.time-card .big{font-size:26px}}
+
+/* indoor / outdoor chips */
+.chips-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.chips-row span{
+  display:inline-flex;align-items:center;gap:7px;font-size:14.5px;font-weight:700;color:var(--navy);
+  background:rgba(255,255,255,.14);border:1.5px solid rgba(255,255,255,.4);
+  border-radius:999px;padding:7px 14px;
+}
+
+/* header: keep long nav labels on one line */
+.top .wrap{gap:20px;flex-wrap:wrap;row-gap:6px;height:auto;min-height:76px;padding-top:10px;padding-bottom:10px}
+nav{gap:18px;font-size:14.5px;flex-wrap:wrap;row-gap:6px}
+nav a{white-space:nowrap}
+.top .logo small{white-space:nowrap}
+@media(max-width:1280px){nav{font-size:13.5px;gap:14px}.top .btn{padding:10px 16px;font-size:14px}}
